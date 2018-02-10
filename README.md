@@ -3,7 +3,7 @@
 ### Personnal folio created from learning Gatsby  
 The forward goal is to use Gatsby to display data from a self-made programmation exercices API  
 
-Started by gatsby-starter-hello-world  
+Build from [gatsby-starter-hello-world](https://github.com/gatsbyjs/gatsby-starter-hello-world)
 
 Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site  
 
