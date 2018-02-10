@@ -1,0 +1,39 @@
+h2 {
+	font-size: 1rem;
+}
+
+.header {
+	position: fixed;
+	height: 50vh;
+	width: 2.5rem;
+	background-color: #007bff;
+	z-index: 10;
+}
+
+.nav {
+	height: inherit;
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	justify-content: center;
+	top: 0;
+	margin-top: 1rem;
+	align-items: start;
+}
+
+.footer {
+	position: fixed;
+	height: 50vh;
+	width: 2.5rem;
+	background-color: #007bff;
+	z-index: 10;
+	bottom: 0;
+}
+
+.menu {
+	height: inherit;
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	justify-content: center;
+	top: 0;
+	align-items: end;
+}

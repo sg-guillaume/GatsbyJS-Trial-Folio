@@ -1,0 +1,53 @@
+.projects {
+	width: inherit;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 15rem);
+	grid-auto-rows: 21rem;
+	grid-gap: 1rem;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.section {
+	height: 20rem;
+	width: 15rem;
+  transform-style: preserve-3d;
+  transition: transform 1s;  
+}
+
+.card {
+	display: grid;
+	align-items: center;
+  margin: 0;
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  backface-visibility: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	background: white;
+}
+
+.pile {	
+	grid-template-rows: repeat(3, 1fr);
+
+}
+.face {
+	grid-template-rows: repeat(2, 1fr);
+  transform: rotateY( 180deg );
+}
+
+.flipped {
+  transform: rotateY( 180deg ) translateX(-2px); /* translation is only to match with the 2px box-shadow */
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: calc(100vw - 2.5rem);
+	padding-left: 2.5rem;
+	text-align: center;
+	background-color: #fff;
+}
