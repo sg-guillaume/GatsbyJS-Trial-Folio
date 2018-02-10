@@ -9,9 +9,9 @@ Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/
 
 A simple folio with five pages  
 
-[x] Header&Footer  
-[ ] Homepage  
-[ ] About  
-[x] Projects  
-[ ] Contact  
-[ ] Terms of use
+- [x] Header&Footer  
+- [ ] Homepage  
+- [ ] About  
+- [x] Projects  
+- [ ] Contact  
+- [ ] Terms of use
