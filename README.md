@@ -1,10 +1,17 @@
-# gatsby-starter-hello-world
+# gatsby trial
+
+###Personnal folio created from learning Gatsby
+The forward goal is to use Gatsby to display data from a self-made programmation exercices API
+
+Started by gatsby-starter-hello-world
+
 Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
-```
+A simple folio with five pages 
 
-## Running in development
-`gatsby develop`
+[x]Header&Footer
+[ ]Homepage 
+[ ]About
+[x]Projects
+[ ]Contact
+[ ]Terms of use
